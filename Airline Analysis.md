@@ -66,7 +66,7 @@ having count(*)>0;
 ```
 
 
-## Task 7: Revenue > 10000 check
+## Task 7: Revenue greater than 10000 check
 
 ```sql
 select sum(no_of_tickets*Price_per_ticket) as Revenue,
