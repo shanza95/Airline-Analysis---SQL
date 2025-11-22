@@ -5,7 +5,7 @@ This project simulates a real-world database management scenario for an aviation
 
 ### Insights
 - Datasets can be found [here](1697127247_airlines_datasets/)
-- SQL Queries can be found [here](Airline%20Analysis.sql/)
+- SQL Queries can be found [here](Airline%20Analysis.md/)
 - SQL Query Tables, in csv file format, can be found [here](SQL%20Query%20Results/)
   
 ### Business Problem
