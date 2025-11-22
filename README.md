@@ -14,7 +14,10 @@ Air Cargo wants to gain deeper insights into its operations by identifying:
 - Busiest routes (to better allocate aircraft)
 - Ticket sales patterns (to improve revenue and pricing strategy).
 
-These insights will support customer-centric decisions and better resource management.
+✈️ MySQL Airline Database – DBA Tasks
+
+This repository contains SQL queries and stored procedures executed on an airline management database.
+All CSV query outputs are organized in the /results folder and referenced by query name.
 
 As a DBA you need to perform the following operations:
 - Display all the passengers/customers who have travelled in routes 01 to 25.
