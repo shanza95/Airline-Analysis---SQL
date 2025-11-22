@@ -40,5 +40,5 @@ As a DBA you need to perform the following operations:
 | **15** | Stored procedure: categorize distance (SDT, IDT, LDT) | [SQL](Airline%20Analysis.md#task-15-stored-procedure-categorize-distance-sdt-idt-ldt) | [roll up by row type.csv](SQL%20Query%20Results/roll%20up%20by%20row%20type.csv) |
 | **16** | Complimentary service indicator by class | [SQL](Airline%20Analysis.md#task-16-complimentary-service-indicator-by-class) | [complimentary service.csv](SQL%20Query%20Results/complimentary%20service.csv) |
 | **17** | First customer whose last name ends with “Scott” (cursor) | [SQL](Airline%20Analysis.md#task-17-first-customer-whose-last-name-ends-with-scott-cursor) | [first Scott(Name) customer.csv](SQL%20Query%20Results/first%20Scott(Name)%20customer.csv) |
-[complimentary service.csv](SQL%20Query%20Results/complimentary%20service.csv) |
+
 
