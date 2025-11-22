@@ -23,7 +23,7 @@ As a DBA you need to perform the following operations:
 
 | Task # | Query Statement | SQL Query | Result CSV |
 |--------|-----------------|-----------|------------|
-| **1** | Passengers who travelled in routes 01–25 | [SQL](Airline%20Analysis.md--##Task-1-passengers-who-travelled-in-routes-01-25) | [route 01-25.csv](SQL%20Query%20Results/route%2001-25.csv) |
+| **1** | Passengers who travelled in routes 01–25 | [SQL](Airline%20Analysis.md--##Task-1-WAQ-to-display-all-the-passengers-(customers)-who-have-travelled-in-routes-01-to-25.) | [route 01-25.csv](SQL%20Query%20Results/route%2001-25.csv) |
 | **2** | Number of passengers & total revenue in Business Class | [SQL](Airline%20Analysis.md#task-2-number-of-passengers--total-revenue-in-business-class) | [total revenue.csv](SQL%20Query%20Results/total%20revenue.csv) |
 | **3** | Display full name of customers | [SQL](Airline%20Analysis.md#task-3-display-full-name-of-customers) | [customers full name.csv](SQL%20Query%20Results/customers%20full%20name.csv) |
 | **4** | Customers who registered AND booked a ticket | [SQL](Airline%20Analysis.md#task-4-customers-who-registered-and-booked-a-ticket) | [registered customers.csv](SQL%20Query%20Results/registered%20customers.csv) |
