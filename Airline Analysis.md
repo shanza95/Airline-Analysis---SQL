@@ -8,22 +8,20 @@ use airline_analysis;
 ```sql
 select * from passengers_on_flights
 where route_id between 01 and 25;
-```
 
-```sql	
 -- ## Task 2: WAQ to identify the number of passengers and total revenue in business class from the ticket_details table.
 
 select sum(no_of_tickets) as no_of_passengers, sum(no_of_tickets*Price_per_ticket) as total_revenue 
 from ticket_details
 where class_id = 'Business';
-```
 
 
-```sql	
+
+
 -- ## Task 3: WAQ to display the full name of the customer by extracting the first name and last name from the customer table.
 	
 select concat(first_name, ' ', last_name) as Full_Name from customer;
-```
+
 
 -- ## Task 4: WAQ to extract the customers who have registered and booked a ticket. Use data from customer and ticket_details tables.
 
