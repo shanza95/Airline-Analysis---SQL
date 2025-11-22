@@ -29,7 +29,7 @@ join
 on c.customer_id = td.customer_id;
 
 ## Task 5: WAQ to identify the customer's first name and last name based on their customer_id and brand (Emirates) from the ticket_details table.
-'
+
 select c.first_name, c.last_name, c.customer_id, td.brand
 from 
 	customer c 
@@ -113,7 +113,7 @@ WHERE class_id ='Business';
 
 ## Task 13: WAQ to create a stored procedure to get the details of all passengers flying between a range of routes defined in run time. 
 	# also, return an error message if the table doesn't exist.
-'
+
 DROP procedure IF EXISTS `get_passengers_by_route`;
 
 DELIMITER //
