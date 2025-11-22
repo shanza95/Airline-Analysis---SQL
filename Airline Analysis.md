@@ -174,7 +174,7 @@ CALL get_passengers_by_route('CRW', 'COD');
 ```
 
 
-## Task 14: Stored procedure: routes > 2000 miles
+## Task 14: Stored procedure: routes more than 2000 miles
 
 ```sql
 DELIMITER //
