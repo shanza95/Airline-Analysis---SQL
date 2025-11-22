@@ -1,23 +1,20 @@
-# Airline-Analysis---SQL
+# Airline-Analysis---MySQL DBA Tasks ✈️ 
 
 ### Project Overview
-This project simulates a real-world database management scenario for an aviation company named Air Cargo, which offers both passenger and freight services through partnerships with other airlines. The objective is to analyze air travel data to improve operational efficiency, optimize route planning, and enhance the customer experience.
+This project simulates a real-world database management scenario for an aviation company named **Air Cargo**, which offers both passenger and freight services through partnerships with other airlines. The objective is to analyze air travel data to improve operational efficiency, optimize route planning, and enhance the customer experience.
 
 ### Insights
-- Datasets can be found [here](1697127247_airlines_datasets/)
-- SQL Queries can be found [here](Airline%20Analysis.md/)
-- SQL Query Tables, in csv file format, can be found [here](SQL%20Query%20Results/)
-  
+- **Datasets:** All raw airline datasets are available [here](1697127247_airlines_datasets/).  
+- **SQL Queries:** The complete SQL scripts for all tasks can be accessed [here](Airline%20Analysis.md).  
+- **Query Results:** The output of SQL queries, in CSV format, is available [here](SQL%20Query%20Results/).
+
 ### Business Problem
 Air Cargo wants to gain deeper insights into its operations by identifying:
 - Regular passengers (to offer loyalty benefits)
 - Busiest routes (to better allocate aircraft)
 - Ticket sales patterns (to improve revenue and pricing strategy).
 
-✈️ MySQL Airline Database – DBA Tasks
-
-This repository contains SQL queries and stored procedures executed on an airline management database.
-All CSV query outputs are organized in the /results folder and referenced by query name.
+### DBA Tasks - SQL Queries  Overview
 
 As a DBA you need to perform the following operations:
 
@@ -40,5 +37,18 @@ As a DBA you need to perform the following operations:
 | 15 | Categorize flight distance | [Query](Airline%20Analysis.md#task-15-categorize-flight-distance) | [roll up by row type.csv](SQL%20Query%20Results/roll%20up%20by%20row%20type.csv) |
 | 16 | Complimentary service per class | [Query](Airline%20Analysis.md#task-16-complimentary-service-per-class) | [complimentary service.csv](SQL%20Query%20Results/complimentary%20service.csv) |
 | 17 | First customer with last name Scott | [Query](Airline%20Analysis.md#task-17-first-customer-with-last-name-scott) | [first Scott(Name) customer.csv](SQL%20Query%20Results/first%20Scott(Name)%20customer.csv) |
+
+### Conclusion – Executive Summary
+
+The Airline Analysis project reveals actionable insights for Air Cargo:  
+
+- **High-demand routes & classes:** Routes 01–25 and Economy Plus are the most traveled, highlighting key revenue corridors.  
+- **Revenue drivers:** Business class is a significant contributor to overall revenue, with some routes exceeding $10,000 in sales.  
+- **Customer segmentation:** Identifying frequent flyers, registered customers, and brand-specific travelers (Emirates) enables targeted loyalty programs.  
+- **Operational efficiency:** Total spend per customer, max ticket prices, and route-specific passenger counts support optimized resource allocation and route planning.  
+- **Service offerings:** Complimentary services for Business and Economy Plus enhance customer satisfaction and marketing opportunities.  
+
+**Takeaway:** Structured data management and targeted analysis allow Air Cargo to make informed decisions, improve revenue, and enhance the passenger experience.  
+
 
 
