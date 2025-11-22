@@ -22,23 +22,23 @@ All CSV query outputs are organized in the /results folder and referenced by que
 As a DBA you need to perform the following operations:
 
 | Task # | Query Statement | SQL Query | Result CSV |
-|--------|-----------------|-----------|-------------|
-| **1** | Passengers who travelled in routes 01–25 | [SQL](Airline%20Analysis.sql#task-1) | [route 01-25.csv](SQL%20Query%20Results/route%2001-25.csv) |
-| **2** | Number of passengers & total revenue in Business Class | [SQL](Airline%20Analysis.sql#task-2) | [total revenue.csv](SQL%20Query%20Results/total%20revenue.csv) |
-| **3** | Display full name of customers | [SQL](Airline%20Analysis.sql#task-3) | [customers full name.csv](SQL%20Query%20Results/customers%20full%20name.csv) |
-| **4** | Customers who registered AND booked a ticket | [SQL](Airline%20Analysis.sql#task-4) | [registered customers.csv](SQL%20Query%20Results/registered%20customers.csv) |
-| **5** | First & last name of customers flying Emirates | [SQL](Airline%20Analysis.sql#task-5) | [Emirates Customers.csv](SQL%20Query%20Results/Emirates%20Customers.csv) |
-| **6** | Customers who travelled by Economy Plus class | [SQL](Airline%20Analysis.sql#task-6) | [Economy_Plus Class Passengers.csv](SQL%20Query%20Results/Economy_Plus%20Class%20Passengers.csv) |
-| **7** | Check if revenue has crossed 10000 | [SQL](Airline%20Analysis.sql#task-7) | [Revenue more than 10000.csv](SQL%20Query%20Results/Revenue%20more%20than%2010000.csv) |
-| **8** | **Create a new user and grant access to database** | [SQL](Airline%20Analysis.sql#task-8) | *(No CSV – administrative task)* |
-| **9** | Maximum ticket price for each class | [SQL](Airline%20Analysis.sql#task-9) | [max ticket_price.csv](SQL%20Query%20Results/max%20ticket_price.csv) |
-| **10** | Passengers whose route ID is 4 | [SQL](Airline%20Analysis.sql#task-10) | [route_id 4 passengers.csv](SQL%20Query%20Results/route_id%204%20passengers.csv) |
-| **11** | Total price of all tickets booked by each customer | [SQL](Airline%20Analysis.sql#task-11) | [total price per customer.csv](SQL%20Query%20Results/total%20price%20per%20customer.csv) |
-| **12** | Create a view: Business Class customers + airline brand | [SQL](Airline%20Analysis.sql#task-12) | *(No CSV – view creation)* |
-| **13** | Stored procedure: passengers flying between route range | [SQL](Airline%20Analysis.sql#task-13) | [passengers by route.csv](SQL%20Query%20Results/passengers%20by%20route.csv) |
-| **14** | Stored procedure: routes with travelled distance > 2000 miles | [SQL](Airline%20Analysis.sql#task-14) | [travel distance more than 2000 miles.csv](SQL%20Query%20Results/travel%20distance%20more%20than%202000%20miles.csv) |
-| **15** | Stored procedure: categorize distance (SDT, IDT, LDT) | [SQL](Airline%20Analysis.sql#task-15) | [roll up by row type.csv](SQL%20Query%20Results/roll%20up%20by%20row%20type.csv) |
-| **16** | Complimentary service indicator by class | [SQL](Airline%20Analysis.sql#task-16) | [complimentary service.csv](SQL%20Query%20Results/complimentary%20service.csv) |
-| **17** | First customer whose last name ends with “Scott” (cursor) | [SQL](Airline%20Analysis.sql#task-17) | [first Scott(Name) customer.csv](SQL%20Query%20Results/first%20Scott(Name)%20customer.csv) |
-
+|--------|-----------------|-----------|------------|
+| **1** | Passengers who travelled in routes 01–25 | [SQL](Airline%20Analysis.md#task-1-passengers-who-travelled-in-routes-01-25) | [route 01-25.csv](SQL%20Query%20Results/route%2001-25.csv) |
+| **2** | Number of passengers & total revenue in Business Class | [SQL](Airline%20Analysis.md#task-2-number-of-passengers--total-revenue-in-business-class) | [total revenue.csv](SQL%20Query%20Results/total%20revenue.csv) |
+| **3** | Display full name of customers | [SQL](Airline%20Analysis.md#task-3-display-full-name-of-customers) | [customers full name.csv](SQL%20Query%20Results/customers%20full%20name.csv) |
+| **4** | Customers who registered AND booked a ticket | [SQL](Airline%20Analysis.md#task-4-customers-who-registered-and-booked-a-ticket) | [registered customers.csv](SQL%20Query%20Results/registered%20customers.csv) |
+| **5** | First & last name of customers flying Emirates | [SQL](Airline%20Analysis.md#task-5-first--last-name-of-customers-flying-emirates) | [Emirates Customers.csv](SQL%20Query%20Results/Emirates%20Customers.csv) |
+| **6** | Customers who travelled by Economy Plus class | [SQL](Airline%20Analysis.md#task-6-customers-who-travelled-by-economy-plus-class) | [Economy_Plus Class Passengers.csv](SQL%20Query%20Results/Economy_Plus%20Class%20Passengers.csv) |
+| **7** | Check if revenue has crossed 10000 | [SQL](Airline%20Analysis.md#task-7-check-if-revenue-has-crossed-10000) | [Revenue more than 10000.csv](SQL%20Query%20Results/Revenue%20more%20than%2010000.csv) |
+| **8** | Create a new user and grant access to database | [SQL](Airline%20Analysis.md#task-8-create-a-new-user-and-grant-access-to-database) | *(No CSV – administrative task)* |
+| **9** | Maximum ticket price for each class | [SQL](Airline%20Analysis.md#task-9-maximum-ticket-price-for-each-class) | [max ticket_price.csv](SQL%20Query%20Results/max%20ticket_price.csv) |
+| **10** | Passengers whose route ID is 4 | [SQL](Airline%20Analysis.md#task-10-passengers-whose-route-id-is-4) | [route_id 4 passengers.csv](SQL%20Query%20Results/route_id%204%20passengers.csv) |
+| **11** | Total price of all tickets booked by each customer | [SQL](Airline%20Analysis.md#task-11-total-price-of-all-tickets-booked-by-each-customer) | [total price per customer.csv](SQL%20Query%20Results/total%20price%20per%20customer.csv) |
+| **12** | View with Business Class customers + airline brand | [SQL](Airline%20Analysis.md#task-12-view-with-business-class-customers--airline-brand) | *(No CSV – view creation)* |
+| **13** | Stored procedure: passengers flying between route range | [SQL](Airline%20Analysis.md#task-13-stored-procedure-passengers-flying-between-route-range) | [passengers by route.csv](SQL%20Query%20Results/passengers%20by%20route.csv) |
+| **14** | Stored procedure: routes with travelled distance > 2000 miles | [SQL](Airline%20Analysis.md#task-14-stored-procedure-routes-with-travelled-distance-2000-miles) | [travel distance more than 2000 miles.csv](SQL%20Query%20Results/travel%20distance%20more%20than%202000%20miles.csv) |
+| **15** | Stored procedure: categorize distance (SDT, IDT, LDT) | [SQL](Airline%20Analysis.md#task-15-stored-procedure-categorize-distance-sdt-idt-ldt) | [roll up by row type.csv](SQL%20Query%20Results/roll%20up%20by%20row%20type.csv) |
+| **16** | Complimentary service indicator by class | [SQL](Airline%20Analysis.md#task-16-complimentary-service-indicator-by-class) | [complimentary service.csv](SQL%20Query%20Results/complimentary%20service.csv) |
+| **17** | First customer whose last name ends with “Scott” (cursor) | [SQL](Airline%20Analysis.md#task-17-first-customer-whose-last-name-ends-with-scott-cursor) | [first Scott(Name) customer.csv](SQL%20Query%20Results/first%20Scott(Name)%20customer.csv) |
+[complimentary service.csv](SQL%20Query%20Results/complimentary%20service.csv) |
 
