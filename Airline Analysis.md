@@ -32,7 +32,7 @@ select concat(first_name, ' ', last_name) as Full_Name from customer;
 ## Task 4: Registered & booked customers
 
 ```sql
-	select c.customer_id, c.first_name, c.last_name,
+select c.customer_id, c.first_name, c.last_name,
 		td.aircraft_id, td.a_code, td.p_date
 from 
 	customer c
@@ -195,11 +195,11 @@ CALL get_long_distance_routes();
 
 ## Task 15: Categorize flight distance
 
-/* The categories are:
+The categories are:
 - short distance travel (SDT) for >=0 AND <= 2000 miles, 
 - intermediate distance travel (IDT) for >2000 AND <=6500, 
 - long-distance travel (LDT) for >6500.
-*/
+
 
 ```sql
 DROP procedure IF EXISTS `travel_distance`;
@@ -222,10 +222,9 @@ CALL travel_distance(2500);
 
 ## Task 16: Complimentary service per class
 	
-/* Condition:
+Condition:
 - if the class is Business and Economy Plus, then complimentary services are given Yes,
 - else it's No
-*/
 
 ```sql
 
