@@ -29,7 +29,7 @@ As a DBA you need to perform the following operations:
 | 4 | Registered & booked customers | [SQL](Airline%20Analysis.md#task-4-registered--booked-customers) | [registered customers.csv](SQL%20Query%20Results/registered%20customers.csv) |
 | 5 | Emirates customer names | [SQL](Airline%20Analysis.md#task-5-emirates-customer-names) | [Emirates Customers.csv](SQL%20Query%20Results/Emirates%20Customers.csv) |
 | 6 | Economy Plus travellers | [SQL](Airline%20Analysis.md#task-6-economy-plus-travellers) | [Economy_Plus Class Passengers.csv](SQL%20Query%20Results/Economy_Plus%20Class%20Passengers.csv) |
-| 7 | Revenue > 10000 check | [SQL](Airline%20Analysis.md#task-7-revenue-10000-check) | [Revenue more than 10000.csv](SQL%20Query%20Results/Revenue%20more%20than%2010000.csv) |
+| 7 | Revenue > 10000 check | [SQL](Airline%20Analysis.md#task-7-revenue-greater-than-10000-check) | [Revenue more than 10000.csv](SQL%20Query%20Results/Revenue%20more%20than%2010000.csv) |
 | 8 | Create & grant user access | [SQL](Airline%20Analysis.md#task-8-create--grant-user-access) | *(No CSV)* |
 | 9 | Max ticket price per class | [SQL](Airline%20Analysis.md#task-9-max-ticket-price-per-class) | [max ticket_price.csv](SQL%20Query%20Results/max%20ticket_price.csv) |
 | 10 | Passengers with route_id 4 | [SQL](Airline%20Analysis.md#task-10-passengers-with-route_id-4) | [route_id 4 passengers.csv](SQL%20Query%20Results/route_id%204%20passengers.csv) |
