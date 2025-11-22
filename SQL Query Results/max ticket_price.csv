@@ -1,0 +1,51 @@
+customer_id,class_id,Price_per_ticket,max_ticket_price
+1,"Economy Plus",250,250
+1,"First Class",320,320
+2,Business,505,505
+2,Economy,130,505
+4,"First Class",390,390
+4,"First Class",390,390
+5,Business,430,430
+5,Economy,120,430
+5,Economy,120,430
+7,Business,430,430
+8,Economy,190,190
+8,"Economy Plus",275,275
+9,"First Class",380,390
+9,"First Class",390,390
+10,Economy,135,135
+11,Business,465,465
+11,Business,465,465
+11,"Economy Plus",295,465
+13,"First Class",395,395
+14,Economy,120,170
+14,Economy,170,170
+15,Business,430,430
+16,"First Class",395,395
+17,"Economy Plus",250,250
+18,Economy,190,190
+18,"First Class",375,375
+19,Economy,100,100
+19,"Economy Plus",225,225
+19,"Economy Plus",225,225
+20,"First Class",365,365
+20,"First Class",315,365
+21,Business,490,490
+22,"Economy Plus",220,220
+24,Business,480,480
+25,Business,499,499
+25,Economy,150,499
+27,Economy,130,130
+28,Economy,170,170
+29,Business,510,510
+29,Business,410,510
+31,Economy,130,130
+32,"Economy Plus",220,220
+33,Business,490,490
+41,"First Class",395,395
+44,"First Class",380,380
+46,Economy,135,135
+46,"First Class",395,395
+47,"Economy Plus",225,225
+49,Business,430,430
+50,"Economy Plus",275,275

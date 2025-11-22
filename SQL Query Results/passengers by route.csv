@@ -1,0 +1,3 @@
+customer_id,aircraft_id,route_id,depart,arrival,seat_num,class_id,travel_date,flight_num
+2,A321,34,CRW,COD,01B,Bussiness,26-01-2019,1117
+41,A321,34,CRW,COD,10FC,"First Class",15-02-2019,1144

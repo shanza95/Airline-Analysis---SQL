@@ -1,0 +1,51 @@
+purchase_date,customer_id,class_id,complimentary_service
+26-12-2018,27,Economy,No
+02-02-2020,22,"Economy Plus",Yes
+03-03-2020,21,Business,Yes
+04-04-2020,4,"First Class",No
+05-05-2020,5,Economy,No
+07-07-2020,7,Business,Yes
+08-08-2020,8,"Economy Plus",Yes
+09-09-2020,9,"First Class",No
+10-10-2020,10,Economy,No
+11-11-2020,11,Business,Yes
+12-12-2020,19,"Economy Plus",Yes
+01-01-2019,13,"First Class",No
+02-02-2019,14,Economy,No
+03-03-2019,25,Business,Yes
+04-04-2019,16,"First Class",No
+03-05-2019,17,"Economy Plus",Yes
+06-06-2019,18,Economy,No
+07-07-2019,24,Business,Yes
+09-08-2019,20,"First Class",No
+21-09-2019,25,Economy,No
+22-10-2019,29,Business,Yes
+23-11-2019,1,"Economy Plus",Yes
+24-12-2019,14,Economy,No
+25-01-2019,2,Business,Yes
+01-01-2018,9,"First Class",No
+01-02-2018,19,Economy,No
+01-03-2018,18,"First Class",No
+01-04-2018,29,Business,Yes
+01-05-2018,8,Economy,No
+01-06-2018,20,"First Class",No
+01-07-2018,5,Business,Yes
+01-08-2018,11,"Economy Plus",Yes
+01-09-2018,2,Economy,No
+01-10-2018,1,"First Class",No
+01-11-2018,15,Business,Yes
+01-12-2018,28,Economy,No
+19-12-2018,31,Economy,No
+04-02-2020,32,"Economy Plus",Yes
+12-03-2020,33,Business,Yes
+29-04-2020,4,"First Class",No
+30-05-2020,5,Economy,No
+17-07-2020,49,Business,Yes
+12-08-2020,50,"Economy Plus",Yes
+05-09-2020,44,"First Class",No
+07-10-2020,46,Economy,No
+08-11-2020,11,Business,Yes
+09-12-2020,47,"Economy Plus",Yes
+11-01-2019,41,"First Class",No
+13-12-2020,19,"Economy Plus",Yes
+15-01-2019,46,"First Class",No
