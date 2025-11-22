@@ -4,7 +4,7 @@ create database airline_analysis;
 use airline_analysis;
 
 -- ## Task 1: WAQ to display all the passengers (customers) who have travelled in routes 01 to 25. 
-
+```sql
 select * from passengers_on_flights
 where route_id between 01 and 25;
 
