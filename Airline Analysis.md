@@ -8,6 +8,8 @@ use airline_analysis;
 ```sql
 select * from passengers_on_flights
 where route_id between 01 and 25;
+```
+
 
 -- ## Task 2: WAQ to identify the number of passengers and total revenue in business class from the ticket_details table.
 
