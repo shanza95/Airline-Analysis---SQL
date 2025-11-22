@@ -36,7 +36,7 @@ As a DBA you need to perform the following operations:
 | 11 | Total tickets price per customer | [SQL](Airline%20Analysis.md#task-11-total-tickets-price-per-customer) | [total price per customer.csv](SQL%20Query%20Results/total%20price%20per%20customer.csv) |
 | 12 | Business class view | [SQL](Airline%20Analysis.md#task-12-business-class-view) | *(No CSV)* |
 | 13 | Stored procedure: passengers by route | [SQL](Airline%20Analysis.md#task-13-stored-procedure-passengers-by-route) | [passengers by route.csv](SQL%20Query%20Results/passengers%20by%20route.csv) |
-| 14 | Stored procedure: routes > 2000 miles | [SQL](Airline%20Analysis.md#task-14-stored-procedure:-routes-2000-miles) | [travel distance more than 2000 miles.csv](SQL%20Query%20Results/travel%20distance%20more%20than%202000%20miles.csv) |
+| 14 | Stored procedure: routes > 2000 miles | [SQL](Airline%20Analysis.md#task-14-stored-procedure-routes->-2000-miles) | [travel distance more than 2000 miles.csv](SQL%20Query%20Results/travel%20distance%20more%20than%202000%20miles.csv) |
 | 15 | Categorize flight distance | [SQL](Airline%20Analysis.md#task-15-categorize-flight-distance) | [roll up by row type.csv](SQL%20Query%20Results/roll%20up%20by%20row%20type.csv) |
 | 16 | Complimentary service per class | [SQL](Airline%20Analysis.md#task-16-complimentary-service-per-class) | [complimentary service.csv](SQL%20Query%20Results/complimentary%20service.csv) |
 | 17 | First customer with last name Scott | [SQL](Airline%20Analysis.md#task-17-first-customer-with-last-name-scott) | [first Scott(Name) customer.csv](SQL%20Query%20Results/first%20Scott(Name)%20customer.csv) |
