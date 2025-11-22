@@ -11,9 +11,6 @@ Air Cargo wants to gain deeper insights into its operations by identifying:
 
 These insights will support customer-centric decisions and better resource management.
 
-### Your Role
-As a Database Administrator (DBA), you are tasked with:
-- Designing and querying a relational database
-- Creating stored procedures and functions
-- Performing analytical operations
-- Improving query performance and implementing constraints.
+### Insights
+- Datasets can be found [here](1697127247_airlines_datasets/)
+- SQL  Queries can be found [here](Airline%20Analysis.sql/)
