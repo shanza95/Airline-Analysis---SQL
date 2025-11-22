@@ -1,7 +1,9 @@
 
-
+```sql
 create database airline_analysis;
 use airline_analysis;
+```
+
 
 -- ## Task 1: WAQ to display all the passengers (customers) who have travelled in routes 01 to 25. 
 
@@ -13,20 +15,23 @@ where route_id between 01 and 25;
 
 -- ## Task 2: WAQ to identify the number of passengers and total revenue in business class from the ticket_details table.
 
+```sql
 select sum(no_of_tickets) as no_of_passengers, sum(no_of_tickets*Price_per_ticket) as total_revenue 
 from ticket_details
 where class_id = 'Business';
-
-
+```
 
 
 -- ## Task 3: WAQ to display the full name of the customer by extracting the first name and last name from the customer table.
-	
+
+```sql
 select concat(first_name, ' ', last_name) as Full_Name from customer;
+```
 
 
 -- ## Task 4: WAQ to extract the customers who have registered and booked a ticket. Use data from customer and ticket_details tables.
 
+```sql
 	select c.customer_id, c.first_name, c.last_name,
 		td.aircraft_id, td.a_code, td.p_date
 from 
@@ -34,9 +39,12 @@ from
 join
 	ticket_details td
 on c.customer_id = td.customer_id;
+```
+
 
 -- ## Task 5: WAQ to identify the customer's first name and last name based on their customer_id and brand (Emirates) from the ticket_details table.
 
+```sql
 select c.first_name, c.last_name, c.customer_id, td.brand
 from 
 	customer c 
@@ -46,35 +54,50 @@ on
 	c.customer_id = td.customer_id
 where
 	td.brand = 'Emirates';
+```
+
 
 -- ## Task 6: WAQ to identify the customers who have travelled by Economy Plus class 
-		
+
+```sql
 select customer_id, count(*) as total_flights from passengers_on_flights
 where class_id ='Economy Plus'
 group by customer_id
 having count(*)>0;				
+```
+
 
 -- ## Task 7: WAQ to identify whether the revenue has crossed 10000 using the IF CLAUSE on the ticket_details table.
 
+```sql
 select sum(no_of_tickets*Price_per_ticket) as Revenue,
 if(sum(no_of_tickets*Price_per_ticket) > 10000, 'Yes', 'No') as revenue_crossed_10000
 from ticket_details;
+```
+
 
 -- ## Task 8: WAQ to create and grant access to a new user to perform operations on a database.
 
+```sql
 CREATE USER 'new_user' @ 'localhost' IDENTIFIED BY 'user_password';
 GRANT ALL PRIVILEGES ON database_name. * TO 'new_user' @ 'localhost';
 # In case we want to grant access with Limited Permissions
 GRANT SELECT, INSERT, UPDATE ON database_name. * TO 'new_user' @ 'localhost';
+```
+
 
 -- ## Task 9: WAQ to find the maximum ticket price for each class using window functions on the ticket_details table.
 
+```sql
 select customer_id, class_id, Price_per_ticket, 
 MAX(Price_per_ticket) OVER (PARTITION BY customer_id ORDER BY class_id) as max_ticket_price 
 from ticket_details; 
+```
+
 
 -- ## Task 10: WAQ to extract the passengers whose route_id is 4 by improving the speed and performance of the passengers_on_flights table. 
 
+```sql
 select * from passengers_on_flights where route_id = 4;
 
 # create index for query speed
@@ -100,27 +123,33 @@ FROM
     ticket_details
 GROUP BY 
     customer_id, aircraft_id WITH ROLLUP;
+```
 
 
 -- ## Task 11: WAQ to calculate the total price of all tickets booked by a customer across different aircraft IDs using rollup function.
 
+```sql
 select customer_id, aircraft_id, sum(Price_per_ticket) as tot_price_all_tickets
 from ticket_details
 group by customer_id, aircraft_id 
 with rollup ;
+```
 
 
 -- ## Task 12: WAQ to create a view with only business class customers along with the brand of airlines.
 
+```sql
 CREATE  OR REPLACE VIEW business_class_customers AS
 SELECT customer_id, class_id, brand
 FROM ticket_details
 WHERE class_id ='Business';
+```
 
 
 -- ## Task 13: WAQ to create a stored procedure to get the details of all passengers flying between a range of routes defined in run time. 
 	# also, return an error message if the table doesn't exist.
 
+```sql
 DROP procedure IF EXISTS `get_passengers_by_route`;
 
 DELIMITER //
@@ -144,8 +173,12 @@ DELIMITER ;
 
 
 CALL get_passengers_by_route('CRW', 'COD');
+```
+
 
 ## Task 14: WAQ to create a stored procedure that extract all from the routes table where the travelled distance is more than 2000 miles. 
+
+```sql
 DELIMITER //
 
 CREATE PROCEDURE get_long_distance_routes()
@@ -159,6 +192,7 @@ END;
 DELIMITER ;
 
 CALL get_long_distance_routes();
+```
 
 
 -- ## Task 15: WAQ to create a stored procedure that groups the distance travelled by each flight into three categories
@@ -168,6 +202,7 @@ CALL get_long_distance_routes();
 - long-distance travel (LDT) for >6500.
 */
 
+```sql
 DROP procedure IF EXISTS `travel_distance`;
 
 DELIMITER $$
@@ -183,6 +218,8 @@ END$$
 
 DELIMITER ;
 CALL travel_distance(2500);
+```
+
 
 -- ## Task 16: WAQ to extract ticket purchase date, customer id, class id, 
 	# and specify if the complimentary services are provided for the specific class 
@@ -191,6 +228,8 @@ CALL travel_distance(2500);
 - if the class is Business and Economy Plus, then complimentary services are given Yes,
 - else it's No
 */
+
+```sql
 
 # CREATE THE STORED FUNCTION
 DELIMITER //
@@ -228,8 +267,12 @@ DELIMITER ;
 CALL get_ticket_services();
 
 DELIMITER //
+```
+
 
 -- ## Task 17: WAQ to extract the first record of the customer whose last name ends with Scott using a cursor from the customer table.
+
+```sql
 
 CREATE PROCEDURE get_first_scott_customer()
 BEGIN
@@ -258,3 +301,4 @@ END;
 
 DELIMITER ;
 CALL get_first_scott_customer();
+```
